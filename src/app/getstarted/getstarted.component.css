@@ -9,9 +9,15 @@
     position: absolute;
     height: 50%;
     width: 50%;
+    left: 0;
 }
 .landing-banner {
     display: flex;
+}
+.form-info {
+    display: flex;
+    margin-top: 5%;
+    color: #0B0754;
 }
 .started-content {
     display: flex;
@@ -22,7 +28,7 @@
     justify-content: center;
     align-items: center;
 }
-h3 {
+.strong {
     font-size: 3.2rem;
     margin-top: 20%;
     line-height: 100%;
@@ -36,7 +42,7 @@ h3 {
 }
 .p-submit {
     font-size: 1.3rem;
-    line-height: 120%;
+    line-height: 150%;
 }
 .nav-arrow {
     height: 40px;
@@ -48,6 +54,27 @@ h3 {
     width: 100vw;
     justify-content: center;
     margin-top: 10%;
+}
+.share  {
+    font-size: 3.2rem;
+    margin-top: 5%;
+    line-height: 100%;
+    z-index: 2;
+}
+.form-section {
+    margin-left: 50%;
+    line-height: 100%;
+    z-index: 2;
+    margin-right: 5%;
+}
+.check {
+    width: 20px;
+    height: 20px;
+    margin: 2%;
+}
+.checkers {
+    display: flex;
+    flex-direction: column;
 }
 @media only screen and (min-width: 768px) {
     .helping {
@@ -61,9 +88,15 @@ h3 {
         position: absolute;
         height: 50%;
         width: 50%;
+        left: 0;
     }
     .landing-banner {
         display: flex;
+    }
+    .form-info {
+        display: flex;
+        margin-top: 5%;
+        color: #0B0754;
     }
     .started-content {
         display: flex;
@@ -74,7 +107,7 @@ h3 {
         justify-content: center;
         align-items: center;
     }
-    h3 {
+    .strong {
         font-size: 3.2rem;
         margin-top: 20%;
         line-height: 100%;
@@ -88,7 +121,7 @@ h3 {
     }
     .p-submit {
         font-size: 1.3rem;
-        line-height: 120%;
+        line-height: 150%;
     }
     .nav-arrow {
         height: 40px;
@@ -100,5 +133,26 @@ h3 {
         width: 100vw;
         justify-content: center;
         margin-top: 10%;
+    }
+    .share  {
+        font-size: 3.2rem;
+        margin-top: 5%;
+        line-height: 100%;
+        z-index: 2;
+    }
+    .form-section {
+        margin-left: 50%;
+        line-height: 100%;
+        z-index: 2;
+        margin-right: 5%;
+    }
+    .check {
+        width: 20px;
+        height: 20px;
+        margin: 2%;
+    }
+    .checkers {
+        display: flex;
+        flex-direction: column;
     }
 }
