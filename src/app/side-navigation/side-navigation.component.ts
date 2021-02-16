@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetstartedComponent } from 'src/app/getstarted/getstarted.component';
 
 @Component({
   selector: 'app-side-navigation',

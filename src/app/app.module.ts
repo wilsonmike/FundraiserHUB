@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import {A11yModule} from '@angular/cdk/a11y';
 import {ClipboardModule} from '@angular/cdk/clipboard';
@@ -48,11 +48,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
+import { GetstartedComponent } from './getstarted/getstarted.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavigationComponent
+    SideNavigationComponent,
+    GetstartedComponent
   ],
   imports: [
     BrowserModule,
