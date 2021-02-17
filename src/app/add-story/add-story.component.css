@@ -1,6 +1,23 @@
 .starter {
     color: #0B0754;
 }
+.container-full {
+    display: flex;
+}
+form {
+    z-index: 2;
+}
+label {
+    color: #0B0754;
+}
+.monitor {
+    display: none;
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        right: 0;
+        top: 1700px;
+}
 .text-area {
     display: flex;
     flex-direction: column;
@@ -29,7 +46,18 @@
     border: none;
     color: #0B0754;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 790px) {
+    .monitor {
+        display: inline;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            right: 0;
+            top: 1700px;
+    }
+    .form-control {
+        width: 110%;
+    }
     .starter {
         color: #0B0754;
     }
