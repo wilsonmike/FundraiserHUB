@@ -1,8 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 /src/environments/**
 /src/environments/
-/src/environments
-
+/src/app/environments
+/src/app/environments/environments.ts
+/src/app/environments/environments.prod.ts
+**/src/environments/environment.prod.ts
+**/src/environments/environment.ts
+/src/environments/environment.prod.ts
+/src/environments/environment.ts
 # compiled output
 /dist
 /tmp
