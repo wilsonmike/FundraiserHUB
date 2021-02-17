@@ -1,6 +1,10 @@
 .starter {
     color: #0B0754;
 }
+.text-area {
+    display: flex;
+    flex-direction: column;
+}
 .h2 {
     font-size: 3.2rem;
     line-height: 100%;

@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  // tslint:disable-next-line:typedef
+  onEdit(){
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
 
   constructor() { }
 

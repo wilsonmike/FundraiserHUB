@@ -31,7 +31,8 @@ export class AddStoryComponent implements OnInit {
       firstName: ['', [Validators.required, Validators.minLength(2)]],
       lastName: [''],
       email: ['', [Validators.required, Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')]],
-      mobileNumber: ['', [Validators.required, Validators.pattern('^[0-9]+$')]]
+      mobileNumber: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
+      story: []
     });
   }
 
@@ -54,6 +55,13 @@ export class AddStoryComponent implements OnInit {
   // tslint:disable-next-line:typedef
   get mobileNumber() {
     return this.storyForm.get('mobileNumber');
+  }
+
+  // tslint:disable-next-line:typedef
+  get story() {
+    const stringFix = this.storyForm.get('story');
+    console.log(stringFix);
+    return this.storyForm.get('story');
   }
 
   // Reset student form's values

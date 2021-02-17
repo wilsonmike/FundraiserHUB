@@ -20,7 +20,8 @@ export class CrudService {
       firstName: stories.firstName,
       lastName: stories.lastName,
       email: stories.email,
-      mobileNumber: stories.mobileNumber
+      mobileNumber: stories.mobileNumber,
+      story: stories.story,
     });
   }
 

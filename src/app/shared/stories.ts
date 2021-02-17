@@ -4,4 +4,5 @@ export interface Stories {
         lastName: string;
         email: string;
         mobileNumber: number;
+        story: string;
 }

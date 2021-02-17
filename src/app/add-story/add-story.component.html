@@ -14,8 +14,8 @@
                 <label>First name</label>
                 <input type="text" formControlName="firstName" class="form-control" required>
                 <!-- Showing errors using getter method -->
-                <p *ngIf="firstName.touched && firstName.invalid" class="error"><sup>*</sup>Please enter atleast first name</p>
-                <p *ngIf="firstName.errors?.minlength" class="error"><sup>*</sup>Name shouldn't be less than 2 words</p>
+                <p *ngIf="firstName.touched && firstName.invalid" class="error"><sup>*</sup>Please enter at least first name</p>
+                <p *ngIf="firstName.errors?.minlength" class="error"><sup>*</sup>Name shouldn't be less than 2 letters</p>
               </div>
       
               <div class="col-md-12 mb-3">
@@ -42,6 +42,15 @@
                   number</p>
                 <p *ngIf="mobileNumber.errors?.pattern" class="error"><sup>*</sup>Use numbers only
                   number</p>
+              </div>
+
+              <div class="col-md-12 mb-3">
+                  <div class="text-area">
+                    <label>Story</label>
+                    <textarea rows="15" cols="50"  formControlName="story" placeholder="Include your favorite color, hobbies, or fun facts about you so we can make your shirts and site more unique"></textarea>
+                  </div>
+              
+                <!-- <input type="textarea" rows="4" cols="50" formControlName="story" class="form-control" required> -->
               </div>
       
             </div>
