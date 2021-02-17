@@ -58,6 +58,7 @@ import { AddStoryComponent } from './add-story/add-story.component';
 import { EditStoryComponent } from './edit-story/edit-story.component';
 import { StoryListComponent } from './story-list/story-list.component';
 import { ToastrModule } from 'ngx-toastr';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { ToastrModule } from 'ngx-toastr';
     ReactiveformComponent,
     AddStoryComponent,
     EditStoryComponent,
-    StoryListComponent
+    StoryListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

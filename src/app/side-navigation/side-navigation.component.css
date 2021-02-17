@@ -1,5 +1,16 @@
 body {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    width: 100vw;
+  }
+  .conatiner,
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
   }
   .nav-link {
     color: #0B0754 !important;
