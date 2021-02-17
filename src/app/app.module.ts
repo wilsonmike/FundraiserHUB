@@ -50,13 +50,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 import { GetstartedComponent } from './getstarted/getstarted.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+// Firebase Modules
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { environment } from '../environments/environment';
+import { AddStoryComponent } from './add-story/add-story.component';
+import { EditStoryComponent } from './edit-story/edit-story.component';
+import { StoryListComponent } from './story-list/story-list.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavigationComponent,
     GetstartedComponent,
-    ReactiveformComponent
+    ReactiveformComponent,
+    AddStoryComponent,
+    EditStoryComponent,
+    StoryListComponent
   ],
   imports: [
     BrowserModule,
@@ -108,6 +119,10 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     OverlayModule,
     PortalModule,
     ScrollingModule,
+    AngularFireModule.initializeApp(environment.firebase), // Main Angular fire module
+    AngularFireDatabaseModule,  // Firebase database module
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot() // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]

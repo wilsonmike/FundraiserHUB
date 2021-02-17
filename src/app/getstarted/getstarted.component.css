@@ -175,4 +175,7 @@
         margin: 0;
         padding: 0;
     }
+    #form-location {
+        margin-top: 5%;
+    }
 }
