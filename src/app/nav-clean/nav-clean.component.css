@@ -21,9 +21,10 @@ body {
       width: 50px;
   }
   .ink-logo {
-      height: 55px;
-      width: 100px;
-  }
+    height: 55px;
+    width: 100px;
+    margin-left: 2%;
+}
   .fleece-logo {
       height: 50px;
       width: 100px;

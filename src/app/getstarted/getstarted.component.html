@@ -1,7 +1,8 @@
 <div class="landing-banner">
     <div class="started-content">
-        <h3 class="strong">We create your <strong>fundraising store</strong></h3>
-        <p class="p-submit">Powered by InkPressions and Fleece & Thank You</p>
+        <!-- <h3 class="strong">We create your <strong>fundraising store</strong></h3> -->
+        <h3 class="jumbo">We lift the spirits of those in need and <strong>raise much needed funds</strong></h3>
+        <!-- <p class="p-submit">Powered by InkPressions and Fleece & Thank You</p> -->
         <a (click)="onClick('form-location')"><button mat-button class="getstarted-btn">Fill Out A Simple Form</button></a>
     </div>
     <img class="helping" src="./assets/helping.svg" alt="">
@@ -37,10 +38,13 @@
         </div>
     </div>
 </div>
-<div class="form-container">
-    <app-add-story id="form-location"></app-add-story>
+<div id="form-location" class="form-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6ocBSIaw_MthOak3vix22WV1UCB0Z_RHxcKgtapglYpAPfQ/viewform?embedded=true" width="70%" height="585" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!-- <app-add-story id="form-location"></app-add-story> -->
+    <app-fileupload></app-fileupload>
 </div>
+<img class="monitor" src="./assets/sitespellingfix.svg" >
 <div class="upload-container">
-
+    
 </div>
 <app-footer></app-footer>
