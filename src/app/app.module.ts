@@ -61,6 +61,8 @@ import { StoryListComponent } from './story-list/story-list.component';
 import { ToastrModule } from 'ngx-toastr';
 import { FooterComponent } from './footer/footer.component';
 import { FileuploadComponent } from './fileupload/fileupload.component';
+import { NavCleanComponent } from './nav-clean/nav-clean.component';
+import { SuccessStoriesComponent } from './success-stories/success-stories.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,9 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
     EditStoryComponent,
     StoryListComponent,
     FooterComponent,
-    FileuploadComponent
+    FileuploadComponent,
+    NavCleanComponent,
+    SuccessStoriesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,43 @@
+.page-banner {
+    display: flex;
+    margin: 5%;
+}
+.started-content {
+    display: flex;
+    flex-direction: column;
+    color: #0B0754;
+    z-index: 2;
+    margin: 5%;
+}
+.getstarted-btn {
+    background-color: #ED6966;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 180px;
+}
+.strong {
+    font-size: 2.2rem;
+    line-height: 100%;
+}
+.p-submit {
+    font-size: 1.3rem;
+    line-height: 150%;
+}
+.page-title {
+    font-size: 3.2rem;
+    margin-top: 10%;
+    line-height: 100%;
+}
+.campaign {
+    display: none;
+    height: 50%;
+    width: 50%;
+}
+@media (min-width: 768px) {
+    .campaign {
+        display: block;
+        height: 50%;
+        width: 50%;
+    }
+}
