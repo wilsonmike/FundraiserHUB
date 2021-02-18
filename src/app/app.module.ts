@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import {A11yModule} from '@angular/cdk/a11y';
 import {ClipboardModule} from '@angular/cdk/clipboard';
@@ -59,6 +60,7 @@ import { EditStoryComponent } from './edit-story/edit-story.component';
 import { StoryListComponent } from './story-list/story-list.component';
 import { ToastrModule } from 'ngx-toastr';
 import { FooterComponent } from './footer/footer.component';
+import { FileuploadComponent } from './fileupload/fileupload.component';
 
 @NgModule({
   declarations: [
@@ -69,10 +71,12 @@ import { FooterComponent } from './footer/footer.component';
     AddStoryComponent,
     EditStoryComponent,
     StoryListComponent,
-    FooterComponent
+    FooterComponent,
+    FileuploadComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
     AppRoutingModule,
