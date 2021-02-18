@@ -2,12 +2,61 @@
     display: flex;
     margin: 5%;
 }
+.logo {
+    height: 110px;
+    width: 90px;
+    margin-left: 40%;
+}
+.shirt-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    position: relative;
+}
+.t-size {
+   
+    height: 300px;
+    width: 280px;
+}
 .started-content {
     display: flex;
     flex-direction: column;
     color: #0B0754;
     z-index: 2;
     margin: 5%;
+}
+.popover {
+    width: 500px;
+}
+.slidersa {
+    margin-left: 10%;
+    background-color: #ED6966;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 180px;
+    outline: none;
+    border: none;
+}
+.btn:focus {
+    outline: none;
+}
+.story-text {
+    width: 100%;
+    z-index: 2;
+    margin-top: 3%;
+    color: #0B0754;
+}
+.txt-top {
+    margin-top: 20px;
+}
+.story-inner {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 3%;
+    font-size: 1.3rem;
+    line-height: 150%;
 }
 .getstarted-btn {
     background-color: #ED6966;
@@ -24,6 +73,10 @@
     font-size: 1.3rem;
     line-height: 150%;
 }
+.storyboard {
+    display: flex;
+    margin-top: 10%;
+}
 .page-title {
     font-size: 3.2rem;
     margin-top: 10%;
@@ -34,10 +87,26 @@
     height: 50%;
     width: 50%;
 }
+.footer-container {
+    margin-top: 10%;
+    bottom: 0;
+    width: 100vw;
+}
+.story-bg {
+    display: none;
+    height: 50%;
+    width: 50%;
+}
 @media (min-width: 768px) {
     .campaign {
         display: block;
         height: 50%;
         width: 50%;
+    }
+    .story-bg {
+        display: block;
+        height: 40%;
+        width: 40%;
+        margin: 5%;
     }
 }

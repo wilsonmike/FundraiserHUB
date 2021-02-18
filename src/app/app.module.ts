@@ -63,6 +63,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FileuploadComponent } from './fileupload/fileupload.component';
 import { NavCleanComponent } from './nav-clean/nav-clean.component';
 import { SuccessStoriesComponent } from './success-stories/success-stories.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -132,7 +133,7 @@ import { SuccessStoriesComponent } from './success-stories/success-stories.compo
     AngularFireModule.initializeApp(environment.firebase), // Main Angular fire module
     AngularFireDatabaseModule,  // Firebase database module
     BrowserAnimationsModule, // required animations module
-    ToastrModule.forRoot() // ToastrModule added
+    ToastrModule.forRoot(), NgbModule // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]
