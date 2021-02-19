@@ -24,9 +24,8 @@ body {
       width: 50px;
   }
   .ink-logo {
-      height: 55px;
-      width: 95px;
-      margin-left: 2%;
+      height: 50px;
+      width: 90px;
   }
   .fleece-logo {
       height: 50px;
@@ -70,6 +69,11 @@ body {
   }
   
   @media (min-width: 768px) {
+    .ink-logo {
+      height: 50px;
+      width: 90px;
+      margin-left: 10%;
+  }
     #sidebar-wrapper {
       margin-left: 0;
     }
