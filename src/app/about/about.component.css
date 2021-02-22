@@ -1,6 +1,7 @@
 .about-content {
     display: flex;
     margin-top: 10%;
+    color: #0B0754;
 }
 .puzzle {
     display: none;
@@ -12,6 +13,21 @@
     margin-top: 10%;
     line-height: 100%;
     z-index: 2;
+}
+.list-item {
+    font-size: 1rem;
+}
+.check {
+    width: 20px;
+    height: 20px;
+    margin-right: 1.5%;
+}
+.check-bed {
+    display: flex;
+    margin-top: 1%;
+}
+.first-item {
+    margin-top: 5%;
 }
 
 @media only screen and (min-width: 768px) {
