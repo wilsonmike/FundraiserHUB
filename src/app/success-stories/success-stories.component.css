@@ -38,6 +38,16 @@
     outline: none;
     border: none;
 }
+.slidersb {
+    margin-left: 2%;
+    background-color: #ED6966;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 180px;
+    outline: none;
+    border: none;
+}
 .btn:focus {
     outline: none;
 }

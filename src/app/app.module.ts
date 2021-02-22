@@ -64,6 +64,7 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
 import { NavCleanComponent } from './nav-clean/nav-clean.component';
 import { SuccessStoriesComponent } from './success-stories/success-stories.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     FileuploadComponent,
     NavCleanComponent,
-    SuccessStoriesComponent
+    SuccessStoriesComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

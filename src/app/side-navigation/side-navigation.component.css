@@ -4,10 +4,10 @@ body {
     padding: 0;
   }
   .navbar {
-    width: 100vw;
+    width: 100%;
     background-color: #ffff;
-    margin: 20px;
-    height: 80px;
+    margin-top: 2%;
+    margin-right: 10%;
   }
   .conatiner,
   .container-fluid {

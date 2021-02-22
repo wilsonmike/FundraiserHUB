@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 import { AddStoryComponent } from './add-story/add-story.component';
 import { EditStoryComponent } from './edit-story/edit-story.component';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
@@ -9,11 +10,12 @@ import { SuccessStoriesComponent } from './success-stories/success-stories.compo
 const routes: Routes = [
   { path: '', redirectTo: '/main', pathMatch: 'full' },
   { path: 'main', component: SideNavigationComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'success', component: SuccessStoriesComponent },
-  { path: '**', component: SideNavigationComponent },
   { path: 'addStory', component: AddStoryComponent },
   { path: 'editStory', component: EditStoryComponent },
   { path: 'storyList', component: StoryListComponent },
+  { path: '**', component: SideNavigationComponent },
 ];
 
 @NgModule({
