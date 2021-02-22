@@ -3,6 +3,9 @@
     margin-top: 10%;
     color: #0B0754;
 }
+.text-section {
+    margin-left: 5%;
+}
 .puzzle {
     display: none;
     height: 50%;
@@ -22,6 +25,14 @@
     height: 20px;
     margin-right: 1.5%;
 }
+.partnership {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    color: #D5D5D5;
+}
 .check-bed {
     display: flex;
     margin-top: 1%;
@@ -29,11 +40,54 @@
 .first-item {
     margin-top: 5%;
 }
+.inkpressions {
+    display: none;
+    width: 300px;
+    height: 100px;
+}
+.hide {
+    width: 150px;
+    height: 90px;
+}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 790px) {
     .puzzle {
         display: inline;
         height: 50%;
         width: 50%;
+    }
+    .inkpressions {
+        display: block;
+        width: 1200px;
+        height: 400px;
+    }
+    .partnership {
+        margin-top: 20%;
+        color: #D5D5D5;
+    }
+    
+    .hide {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 790px) {
+    .puzzle {
+        display: inline;
+        height: 50%;
+        width: 50%;
+    }
+    .inkpressions {
+        display: none;
+        width: 1200px;
+        height: 400px;
+    }
+    .partnership {
+        margin-top: 20%;
+        color: #D5D5D5;
+    }
+    
+    .hide {
+        display: block;
     }
 }

@@ -121,13 +121,66 @@ a {
         right: 0;
         top: 1700px;
 }
+/* test */
+.about-content {
+    display: flex;
+    color: #0B0754;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+.text-section {
+    margin-left: 5%;
+}
+.puzzle {
+    display: none;
+    height: 50%;
+    width: 50%;
+}
+.heading {
+    font-size: 2.5rem;
+    margin-top: 10%;
+    line-height: 100%;
+    z-index: 2;
+}
+.list-item {
+    font-size: 1rem;
+}
+.checkz {
+    width: 20px;
+    height: 20px;
+    margin-right: 1.5%;
+}
+.partnership {
+    margin-top: 20%;
+    color: #0B0754;
+}
+.check-bed {
+    display: flex;
+    margin-top: 1%;
+}
+.first-item {
+    margin-top: 5%;
+}
 @media only screen and (min-width: 768px) {
+    .puzzle {
+        display: inline;
+        height: 30%;
+        width: 30%;
+    }
     .helping {
         position: absolute;
         height: 45%;
         width: 45%;
         right: 10;
         top: 150px;
+    }
+    .about-content {
+        display: flex;
+        color: #0B0754;
+        margin-left: 20%;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
     .form-svg {
         display: inline;
