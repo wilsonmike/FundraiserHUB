@@ -65,6 +65,7 @@ import { NavCleanComponent } from './nav-clean/nav-clean.component';
 import { SuccessStoriesComponent } from './success-stories/success-stories.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import { AboutComponent } from './about/about.component';
     FileuploadComponent,
     NavCleanComponent,
     SuccessStoriesComponent,
-    AboutComponent
+    AboutComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

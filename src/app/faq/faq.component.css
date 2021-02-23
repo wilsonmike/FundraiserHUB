@@ -1,0 +1,82 @@
+.blob {
+    z-index: 2;
+    position: absolute;
+}
+.test {
+    display: flex;
+    text-align: left;
+    color: #0B0754;
+    margin: 10%;
+    z-index: 3;
+    position: relative;
+    overflow-wrap: anywhere;
+}
+.faimage {
+    display: none;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+}
+.question {
+    font-size: 1rem;
+}
+.answer {
+    font-size: .8rem;
+}
+.g-form {
+    margin: 0;
+    padding: 0;
+}
+.iframe {
+    position: relative;
+}
+.blocker {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: #0B0754;
+    z-index: 3;
+    bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .iframe {
+        position: relative;
+    }
+    .blocker {
+        position: absolute;
+        height: 60px;
+        width: 100%;
+        background-color: #0B0754;
+        z-index: 3;
+        bottom: 5px;
+    }
+    .blob {
+        z-index: 2;
+        position: absolute;
+    }
+    .test {
+        display: flex;
+        color: #0B0754;
+        margin: 10%;
+        z-index: 3;
+        position: relative;
+        overflow-wrap: break-word;
+    }
+    .faimage {
+        display: inline;
+        height: 50%;
+        width: 50%;
+        margin-left: auto;
+    }
+    .question {
+        font-size: 1.5rem;
+    }
+    .answer {
+        font-size: 1rem;
+    }
+    .g-form {
+        margin: 0;
+        padding: 0;
+    }
+}
