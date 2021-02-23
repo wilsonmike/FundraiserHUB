@@ -66,6 +66,7 @@ import { SuccessStoriesComponent } from './success-stories/success-stories.compo
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import { FaqComponent } from './faq/faq.component';
     NavCleanComponent,
     SuccessStoriesComponent,
     AboutComponent,
-    FaqComponent
+    FaqComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

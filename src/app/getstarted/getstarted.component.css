@@ -106,7 +106,7 @@ a {
 }
 .form-container {
     margin-top: 15%;
-    margin-left: 8%;
+    margin-left: 15%;
     margin-bottom: 5%;
     margin-right: 15%;
     justify-content: center;
@@ -173,6 +173,10 @@ a {
     z-index: 3;
     bottom: 5px;
 }
+.iframe {
+    margin: auto;
+    justify-content: center;
+}
 @media only screen and (min-width: 768px) {
     .puzzle {
         display: inline;
@@ -198,7 +202,7 @@ a {
         position: absolute;
         height: 50%;
         width: 50%;
-        left: 0;
+        margin-left: 5%;
     }
     .landing-banner {
         display: flex;

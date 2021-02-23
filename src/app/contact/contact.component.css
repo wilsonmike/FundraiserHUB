@@ -1,0 +1,45 @@
+.contactus {
+    width: 50%;
+    height: 50%;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    color: #0B0754;
+}
+.h3 {
+    font-size: 2rem;
+}
+.main-text {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.location {
+    font-size: 1rem;
+}
+.footer-container {
+    margin-top: 100%;
+}
+
+@media (min-width: 768px) {
+    .contactus {
+        width: 50%;
+        height: 50%;
+    }
+    .main-container {
+        display: flex;
+        margin: 5%;
+        color: #0B0754;
+    }
+    .h3 {
+        font-size: 2rem;
+    }
+    .main-text {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .location {
+        font-size: 1rem;
+    }
+}
